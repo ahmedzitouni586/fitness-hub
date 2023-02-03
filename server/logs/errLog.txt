@@ -1,0 +1,3 @@
+20230128	17:41:04	e05c00a0-81fc-40d3-bfe7-7109824fd681	Error: Not allowed by CORS
+20230128	17:41:10	35b1722c-bf59-43b6-8449-1b16dd818d3f	Error: Not allowed by CORS
+20230128	17:42:02	0cba0e4b-1474-4a1a-afed-5b359c09d588	Error: Not allowed by CORS
