@@ -1,0 +1,64 @@
+.bmr-section {
+    background: #000;
+    color: #fff;
+    
+}
+
+.bmrCalculator-container {
+    max-width: 700px;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 1.3rem;
+    
+}
+
+.input-element {
+    margin: 0.6rem;
+}
+
+.input-element label, .input-element input,  .input-element select {
+    font-size: 1.2rem;
+}
+
+.input-element select {
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.input-element input {
+    width: 200px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
+    padding-inline: 10px;
+}
+
+.bmr-result {
+    font-size: 1.1rem;
+}
+.bmrCalculator-container button {
+    width: 9.5rem;
+    height: 2.7rem;
+    background: #01bf71;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 20px;
+}
+
+.bmrCalculator-container button:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+    opacity: 0.9;
+}

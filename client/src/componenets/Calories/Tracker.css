@@ -1,0 +1,134 @@
+.tracker-section {
+    background: #000;
+    color: #fff;
+}
+
+.tracker-container {
+    max-width: 700px;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1.3rem;
+}
+
+.controls-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls-input input {
+    width: 200px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 10px;
+    padding-inline: 10px;
+    font-size: 1.3rem;
+    margin: 8px;
+}
+
+.controls-input button, .btn-delete-all {
+    width: 9.5rem;
+    height: 2.7rem;
+    background: #01bf71;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.controls-input button:hover, .btn-delete-all:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+    opacity: 0.9;
+}
+
+.meals-container {
+    max-width: 1100px;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meals-container-wrapper {
+    height: auto;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.meals-container-inner {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.btn-delete-meal {
+    padding: 5px;
+    outline:none;
+    text-align: center;
+    font-size: 1.1rem;
+    background: #01bf71;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.modal {
+    width: 300px;
+    height: 250px;
+    background: #f4f4f4;
+    position: fixed;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.modal p {
+    font-size: 1rem;
+}
+
+.btn-close-modal {
+    padding: 5px;
+    outline: none;
+    text-align: center;
+    font-size: 1.1rem;
+    background: #01bf71;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 90%;
+}
